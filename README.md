@@ -1,12 +1,12 @@
-# Y-GAN
-Official implementation of the paper "Y-GAN: Learning Dual Data Representations for Efficient Anomaly Detection" [^1]. 
-Y-GAN is a one-class learning model designed for the detection of anomalies in images. The model is trained to disentangle semantically-relevant image information from irrelevant, residual characteristics and facilitates efficacious anomaly detection based on selective image encoding. 
+# U-Net for Forward MOdeling
 
-      
+Brief description
+
+[workFlow Picture]      
 
 ![Y-GAN](Y_GAN.jpg)
 
-For more information please refer to the paper available [here](https://arxiv.org/abs/2109.14020).
+
 
 ## 1. Install the dependencies
 The model is implemented using PyTorch. The full list of used libraries can be found in requirements.txt.
@@ -55,18 +55,7 @@ python test.py --dataroot data --dataset Dataset_name --name experiment_name --i
 ```
 ## 5. Citing Y-GAN
 If you find this code useful or you want to refer to the paper, please cite using the following BibTeX:
-```
-@article{ivanovska2024ygan,
-      title={Y-GAN: Learning Dual Data Representations for Efficient Anomaly Detection}, 
-      author={Marija Ivanovska and Vitomir Štruc},
-      journal = {Expert Systems with Applications},
-      volume = {248},
-      pages = {123410},
-      year = {2024},
-      issn = {0957-4174},
-      doi = {https://doi.org/10.1016/j.eswa.2024.123410}
-      }
-```
+
 
 ## Acknowledgements
 This code is partly based on the official implementation of [skip-GANomaly](https://github.com/samet-akcay/skip-ganomaly).
