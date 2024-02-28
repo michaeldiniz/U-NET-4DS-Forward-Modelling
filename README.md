@@ -4,9 +4,6 @@ Brief description
 
 [workFlow Picture]      
 
-![Y-GAN](Y_GAN.jpg)
-
-
 
 ## 1. Install the dependencies
 The model is implemented using PyTorch. The full list of used libraries can be found in requirements.txt.
