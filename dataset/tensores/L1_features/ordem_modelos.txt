@@ -1,0 +1,1 @@
+dRMS_syn dPr dSg dSw NTGPorosityPr_BaseSg_BaseSw_Basecolrowidx
