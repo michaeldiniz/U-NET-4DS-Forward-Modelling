@@ -5,20 +5,20 @@ In this repository, we address the challenges associated with conventional 4D se
 
 ## 1. Install the dependencies
 The model is implemented using PyTorch. The full list of used libraries can be found in requirements.txt.
+
 ```
 pip install -r requirements.txt
 ```
 
 ## 2. Data 
 
-To demonstrate the performance of our proposal, we applied our methodology to the open-access UNISIM IV Benchmark. The raw data of UNISIM IV can be found at ... . The data converted to tensors compatible with PyTorch is located in the folder ./dataset/tensors/Lx_features, where x ∈ {1,2,3}.
+To demonstrate the performance of our proposal, we applied our methodology to the open-access UNISIM IV Benchmark. The raw data of UNISIM IV can be found at  https://www.unisim.cepetro.unicamp.br/benchmarks/br/unisim-iv. The data converted to tensors compatible with PyTorch is located in the folder "./dataset/tensors/Lx_features", where x ∈ {1,2,3}.
 
-For each map, the input data is represented in the file "prepro_X.pt". This file contains a tensor with dimensions (100, 8, 46, 46).
+For each map, the input data is represented in the file "prepro_X.pt". This file contains a tensor with dimensions [100, 8, 46, 46].
 
-The first dimension represents each simulation model contained in each map.
-The second dimension represents each of the physical properties used as input to the model. The order of these properties can be found in the file "ordem_modelos.pkl" in this same folder.
+The first dimension represents each simulation model contained in each map. The second dimension represents each of the physical properties used as input to the model, the order of these properties can be found in the file "ordem_modelos.txt" in this same folder. The last two dimensions represent the height and width of each map.
 
-The last two dimensions represent the height and width of each map.
+The output data can be used in the original dimension 94 x 78 and in the adapted dimension 46 x 46; these data are stored respectively in the files "prepro_dRMS_y.pt" and "prepro_y.pt".
 
 ## 3. Usage
 Follow the instructions to run the code: 
