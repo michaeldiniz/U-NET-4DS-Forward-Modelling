@@ -29,9 +29,13 @@ python main.py --gpu gpu_num --workers workers_num --cp ckpt_file --l map_id --r
 Where
 
 • gpu_num: An integer representing the GPU that will process the training.
+
 • workers_num: An integer representing the number of workers to be used.
+
 • ckpt_file: A string with the path to a pre-trained model for testing.
+
 • map_id: UNISIM IV map to be addressed. Choices=['L1', 'L2', 'L3']
+
 • resolution: Resolution of the output map. Choices=['46x46', '94x78']
 
 
