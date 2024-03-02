@@ -1,6 +1,6 @@
 # U-Net for 4D seismic Forward Modeling
 
-In this repository, we address the challenges associated with conventional 4D seismic forward modeling, specifically its time-intensive nature and significant computational resource consumption. Using hte scripts available in this repository, it is possible to develop a proxy model for 4D seismic forward modeling using the U-Net encoder-decoder (a class of machine learning architecture). The main objective of this proxy model is to enhance the efficiency of reservoir model calibration through the reservoir data assimilation method.     
+In this repository, we address the challenges associated with conventional 4D seismic forward modeling, specifically its time-intensive nature and significant computational resource consumption. Using the scripts available in this repository, it is possible to develop a proxy model for 4D seismic forward modeling using the U-Net encoder-decoder (a class of machine learning architecture). The main objective of this proxy model is to enhance the efficiency of reservoir model calibration through the reservoir data assimilation method.     
 
 
 ## 1. Install the dependencies
