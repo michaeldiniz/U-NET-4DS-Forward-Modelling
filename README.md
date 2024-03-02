@@ -40,5 +40,5 @@ Where
 
 
 ## License
-This code is distributed under MIT License. Please see the file LICENSE for more details..
+This code is distributed under MIT License. Please see the file LICENSE for more details.
 
